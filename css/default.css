@@ -45,6 +45,10 @@ footer{
 }
 
 @media screen and (min-width:1025px){
+  body:after{
+    font-family: 'Noto Sans Japanese', sans-serif;
+    content:"横長";
+  }
   #main{
     max-width:1024px;
     margin:auto;
