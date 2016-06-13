@@ -8,6 +8,8 @@
 
 body{
   background-color:grey;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    content:"横長";
 }
 
 header{
@@ -45,10 +47,6 @@ footer{
 }
 
 @media screen and (min-width:1025px){
-  body:after{
-    font-family: 'Noto Sans Japanese', sans-serif;
-    content:"横長";
-  }
   #main{
     max-width:1024px;
     margin:auto;
@@ -58,11 +56,11 @@ footer{
     float:left;
   }
   #side{
-    width:calc(1024px-718px);
+    width:calc(1024px - 718px);
     float:left;
   }
   aside{
-    width:calc(100%-20px);
+    width:calc(100% - 20px);
   }
   #main:after{
     content:"";
